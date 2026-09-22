@@ -1238,4 +1238,11 @@ window.addEventListener('pagehide',()=>{scanStop();stopVoice()});
  if(CFG){fetch(API+'/api/health').then(r=>r.json()).then(h=>{HEALTH=h;if(route==='profile')render()}).catch(()=>{HEALTH={error:true};if(route==='profile')render()});refreshPerm().then(()=>{if(route==='profile')render()});
   if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost'))navigator.serviceWorker.register('/sw.js').catch(()=>{});
   const h=location.hash.slice(1);if(S.me){if(['add','photo','scan','history','insights','profile'].includes(h))go(h);else if(h==='voice')setTimeout(()=>ACT.voice(),400)}}})();
-</script></body></html>
+</script>
+<!-- App Credits & Copyright -->
+<footer style="text-align: center; padding: 20px 10px; font-size: 12px; color: #888888; border-top: 1px solid #eeeeee; margin-top: 30px;">
+  <p style="margin: 0; font-weight: 600;">Bitewise v1.0</p>
+  <p style="margin: 4px 0 0 0;">Designed & Developed by <strong>Saksham Golchha</strong></p>
+  <p style="margin: 4px 0 0 0;">© 2026 All Rights Reserved</p>
+</footer>
+</body></html>
