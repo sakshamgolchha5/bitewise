@@ -1,0 +1,5 @@
+Copyright (c) 2026 Saksham Golchha. All rights reserved.
+
+The Bitewise application, source code, user interface design, and associated assets are proprietary intellectual property.
+
+Unauthorized copying, distribution, modification, or claiming ownership of this project or software binary is strictly prohibited.
