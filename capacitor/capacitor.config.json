@@ -1,0 +1,6 @@
+{
+  "appId": "in.bitewise.app",
+  "appName": "Bitewise",
+  "webDir": "public",
+  "server": { "androidScheme": "https" }
+}
