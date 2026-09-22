@@ -1,0 +1,9 @@
+{
+  "name": "bitewise",
+  "version": "1.0.0",
+  "description": "Bitewise — Indian calorie, protein & nutrition tracker (PWA + zero-dependency Node server)",
+  "private": true,
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "build": "python3 src/build.py", "test": "bash tests/api-test.sh" },
+  "engines": { "node": ">=18" }
+}
